@@ -2,8 +2,8 @@ import serial #import pyserial not serial!!
 import time
 import datetime
 
-pump_arduino_port = "COM9"  # Serial port of Arduino controlling pumps
-sensor_arduino_port = "COM8"  # Serial port of Arduino with analog sensors
+pump_arduino_port = "COMX"  # Serial port of Arduino controlling pumps
+sensor_arduino_port = "COMY"  # Serial port of Arduino with analog sensors
 baud = 9600  # Baud rate
 combined_file_name = "TEST.csv"  # Name of the combined CSV file
 
